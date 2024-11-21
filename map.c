@@ -10,4 +10,10 @@ Map* get_map(int height, int weidth)
     return map;
 }
 
+Player get_player(Map* map)
+{
+    //instance Player
+    //player position = somewhere on the map
+}
+
 void load_bloack(Map* map){}
