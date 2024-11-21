@@ -17,6 +17,13 @@ typedef struct Block
     struct Block* left;
 }; Block;
 
+typedef struct Player
+{
+    struct Block* position;
+}; Player;
+
+
 Map* get_map(int height, int weidth);
 void load_block(Map* map);
+void move(Player* player, char direction);
 
