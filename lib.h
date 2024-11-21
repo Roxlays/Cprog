@@ -5,7 +5,7 @@ typedef struct Map
 {
     int height;
     int width;
-}; Map;
+} Map;
 
 typedef struct Block
 {
@@ -15,12 +15,12 @@ typedef struct Block
     struct Block* right; 
     struct Block* bot;   
     struct Block* left;
-}; Block;
+} Block;
 
 typedef struct Player
 {
     struct Block* position;
-}; Player;
+} Player;
 
 
 Map* get_map(int height, int weidth);
